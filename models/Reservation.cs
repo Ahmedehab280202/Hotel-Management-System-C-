@@ -15,11 +15,11 @@ namespace WindowsFormsApp1
         public DateTime endDate { get; set; }
         public double price { get; set; }
         public Customer customer { get; set; }
-        public List<Room> rooms { get; set; }
+        public Room rooms { get; set; }
         public Payment payment { get; set; }
         public string status { get; set; }
 
-        public Reservation(int id, DateTime startDate, DateTime endDate, double price, Customer customer, List<Room> rooms, Payment payment, string status)
+        public Reservation(int id, DateTime startDate, DateTime endDate, double price, Customer customer, Room rooms, Payment payment, string status)
         {
             this.id = id;
             this.startDate = startDate;
