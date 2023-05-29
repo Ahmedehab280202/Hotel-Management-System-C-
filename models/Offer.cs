@@ -2,7 +2,7 @@ using System;
 
 namespace WindowsFormsApp1
 {
-    class Offer
+    public class Offer
     {
         public int id { get; set; }
         public int discountPercentage { get; set; }

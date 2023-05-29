@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp1
 {
-    class Room 
+    public class Room 
     {
         public int id { get; set; }
         public int roomNum { get; set; }
@@ -16,9 +16,9 @@ namespace WindowsFormsApp1
         public string status { get; set; }
         public Offer offer { get; set; }
         public Reservation reservation { get; set; }
-        public List<Review> reviews { get; set; }
+        public Review reviews { get; set; }
 
-        public Room(int id, int roomNum, int floor, double price, RoomType roomType, string status, Offer offer, Reservation reservation, List<Review> reviews)
+        public Room(int id, int roomNum, int floor, double price, RoomType roomType, string status, Offer offer, Reservation reservation, Review reviews)
         {
             this.id = id;
             this.roomNum = roomNum;

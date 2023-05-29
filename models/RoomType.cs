@@ -7,14 +7,13 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp1
 {
-    class RoomType
+    public class RoomType
     {
         public int id { get; set; }
         public string name { get; set; }
         public int size { get; set; }
         public int capacity { get; set; }
-
-        public List<Room> rooms { get; set; }
+        public Room rooms { get; set; }
 
         public RoomType(int id, string name, int size, int capacity)
         {

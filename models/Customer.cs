@@ -7,7 +7,7 @@ using WindowsFormsApp1;
 
 namespace Hotel_Management_System.models
 {
-    class Customer
+    public class Customer
     {
         public int id { get; set; }
         public Reservation reservation { get; set; }

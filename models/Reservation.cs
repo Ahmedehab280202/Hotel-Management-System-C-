@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 
 namespace WindowsFormsApp1
-{ 
-    class Reservation
+{
+    public class Reservation
     {
         public int id { get; set; }
         public DateTime startDate { get; set; }

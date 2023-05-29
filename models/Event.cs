@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Hotel_Management_System.models
 {
-    class Event
+    public class Event
     {
         public string name { get; set; }
         public DateTime date { get; set; }
