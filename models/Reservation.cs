@@ -1,3 +1,4 @@
+using Hotel_Management_System.models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,12 +14,12 @@ namespace WindowsFormsApp1
         public DateTime startDate { get; set; }
         public DateTime endDate { get; set; }
         public double price { get; set; }
-        public User customer { get; set; }
+        public Customer customer { get; set; }
         public List<Room> rooms { get; set; }
         public Payment payment { get; set; }
-        public ReservationStatus reservationStatus { get; set; }
+        public string status { get; set; }
 
-        public Reservation(int id, DateTime startDate, DateTime endDate, double price, User customer, List<Room> rooms, Payment payment, ReservationStatus reservationStatus)
+        public Reservation(int id, DateTime startDate, DateTime endDate, double price, Customer customer, List<Room> rooms, Payment payment, string status)
         {
             this.id = id;
             this.startDate = startDate;
@@ -27,7 +28,7 @@ namespace WindowsFormsApp1
             this.customer = customer;
             this.rooms = rooms;
             this.payment = payment;
-            this.reservationStatus = reservationStatus;
+            this.status = status;
         }
     }
 }

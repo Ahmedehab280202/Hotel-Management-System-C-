@@ -4,15 +4,15 @@ namespace WindowsFormsApp1
 {
     class Offer
     {
-        private int id { get; set; }
-        private double percentage { get; set; }
-        private DateTime expirationdate { get; set; }
+        public int id { get; set; }
+        public int discountPercentage { get; set; }
+        public DateTime expirationDate { get; set; }
 
-        public Offer(int id, double percentage, DateTime expirationDate)
+        public Offer(int id, int discountPercentage, DateTime expirationDate)
         {
             this.id = id;
-            this.percentage = percentage;
-            this.expirationdate = expirationDate;
+            this.discountPercentage = discountPercentage;
+            this.expirationDate = expirationDate;
         }
 
     }

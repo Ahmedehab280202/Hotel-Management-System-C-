@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,13 +9,19 @@ namespace WindowsFormsApp1
 {
     class RoomType
     {
-        private int id { get; set; }
-        private string description { get; set; }
+        public int id { get; set; }
+        public string name { get; set; }
+        public int size { get; set; }
+        public int capacity { get; set; }
 
-        public RoomType(int id, string description)
+        public List<Room> rooms { get; set; }
+
+        public RoomType(int id, string name, int size, int capacity)
         {
             this.id = id;
-            this.description = description;
+            this.name = name;
+            this.size = size;
+            this.capacity = capacity;
         }
     }
 }

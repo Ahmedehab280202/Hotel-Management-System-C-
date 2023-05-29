@@ -1,3 +1,4 @@
+using Hotel_Management_System.models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,12 +9,12 @@ namespace WindowsFormsApp1
 {
     class Review
     {
-        private int id;
-        private string description;
-        private string title;
-        private User customer;
+        public int id { get; set; }
+        public string description { get; set; }
+        public string title { get; set; }
+        public Customer customer { get; set; }
 
-        public Review(int id, string description, string title, User customer)
+        public Review(int id, string description, string title, Customer customer)
         {
             this.id = id;
             this.description = description;
@@ -21,29 +22,7 @@ namespace WindowsFormsApp1
             this.customer = customer;
         }
 
-        public int Id
-        {
-            get { return id; }
-            set { id = value; }
-        }
-
-        public string Description
-        {
-            get { return description; }
-            set { description = value; }
-        }
-
-        public string Title
-        {
-            get { return title; }
-            set { title = value; }
-        }
-
-        public User Customer
-        {
-            get { return customer; }
-            set { customer = value; }
-        }
+ 
     }
 
 }

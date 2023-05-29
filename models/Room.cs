@@ -8,19 +8,27 @@ namespace WindowsFormsApp1
 {
     class Room 
     {
-        private int id { get; set; }
-        private double price { get; set; }
-        private RoomType roomType { get; set; }
-        private RoomStatus roomStatus { get; set; }
-        private Offer offer { get; set; }
+        public int id { get; set; }
+        public int roomNum { get; set; }
+        public int floor { get; set; }
+        public double price { get; set; }
+        public RoomType roomType { get; set; }
+        public string status { get; set; }
+        public Offer offer { get; set; }
+        public Reservation reservation { get; set; }
+        public List<Review> reviews { get; set; }
 
-        public Room(int id, double price, RoomType roomType, RoomStatus roomStatus, Offer offer)
+        public Room(int id, int roomNum, int floor, double price, RoomType roomType, string status, Offer offer, Reservation reservation, List<Review> reviews)
         {
             this.id = id;
+            this.roomNum = roomNum;
+            this.floor = floor;
             this.price = price;
             this.roomType = roomType;
-            this.roomStatus = roomStatus;
+            this.status = status;
             this.offer = offer;
+            this.reservation = reservation;
+            this.reviews = reviews;
         }
     }
 }

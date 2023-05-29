@@ -11,3 +11,10 @@ D:\Projects\Hotel-Management-System-C\Hotel_Management_System\obj\Debug\Hotel_Ma
 D:\Projects\Hotel-Management-System-C\Hotel_Management_System\obj\Debug\Hotel_Management_System.csproj.CopyComplete
 D:\Projects\Hotel-Management-System-C\Hotel_Management_System\obj\Debug\Hotel_Management_System.exe
 D:\Projects\Hotel-Management-System-C\Hotel_Management_System\obj\Debug\Hotel_Management_System.pdb
+C:\Users\Moham\OneDrive\Desktop\Hotel Management System C#\obj\Debug\Hotel_Management_System.csproj.AssemblyReference.cache
+C:\Users\Moham\OneDrive\Desktop\Hotel Management System C#\obj\Debug\Hotel_Management_System.csproj.SuggestedBindingRedirects.cache
+C:\Users\Moham\OneDrive\Desktop\Hotel Management System C#\obj\Debug\Hotel_Management_System.Properties.Resources.resources
+C:\Users\Moham\OneDrive\Desktop\Hotel Management System C#\obj\Debug\Hotel_Management_System.csproj.GenerateResource.cache
+C:\Users\Moham\OneDrive\Desktop\Hotel Management System C#\obj\Debug\Hotel_Management_System.csproj.CoreCompileInputs.cache
+C:\Users\Moham\OneDrive\Desktop\Hotel Management System C#\obj\Debug\Hotel_Management_System.exe
+C:\Users\Moham\OneDrive\Desktop\Hotel Management System C#\obj\Debug\Hotel_Management_System.pdb

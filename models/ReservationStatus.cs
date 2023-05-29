@@ -8,8 +8,8 @@ namespace WindowsFormsApp1
 {
     class ReservationStatus
     {
-        private int id;
-        private string status;
+        public int id { get; set; }
+        public string status { get; set; }
 
         public ReservationStatus(int id, string status)
         {
@@ -17,17 +17,7 @@ namespace WindowsFormsApp1
             this.status = status;
         }
 
-        public int Id
-        {
-            get { return id; }
-            set { id = value; }
-        }
-
-        public string Status
-        {
-            get { return status; }
-            set { status = value; }
-        }
+      
     }
 
 }

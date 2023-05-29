@@ -8,25 +8,13 @@ namespace WindowsFormsApp1
 {
     class RoomStatus
     {
-        private int id;
-        private string status;
+        public int id { get; set; }
+        public string status { get; set; }
 
         public RoomStatus(int id, string status)
         {
             this.id = id;
             this.status = status;
-        }
-
-        public int Id
-        {
-            get { return id; }
-            set { id = value; }
-        }
-
-        public string Status
-        {
-            get { return status; }
-            set { status = value; }
         }
     }
 }
