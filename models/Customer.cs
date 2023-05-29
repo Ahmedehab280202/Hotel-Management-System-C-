@@ -12,11 +12,11 @@ namespace Hotel_Management_System.models
         public int id { get; set; }
         public Reservation reservation { get; set; }
 
-        public List<Review> reviews { get; set; }
+        public Review reviews { get; set; }
 
-        public List<Payment> payments { get; set; }
+        public Payment payments { get; set; }
 
-        public Customer(int id, Reservation reservation, List<Review> reviews, List<Payment> payments)
+        public Customer(int id, Reservation reservation, Review reviews, Payment payments)
         {
             this.id = id;
             this.reservation = reservation;
