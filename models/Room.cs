@@ -29,6 +29,17 @@ namespace WindowsFormsApp1
             this.offer = offer;
             this.reservation = reservation;
             this.reviews = reviews;
+
+        }
+
+        public Room(int id, int roomNum, int floor, double price,  string status)
+        {
+            this.id = id;
+            this.roomNum = roomNum;
+            this.floor = floor;
+            this.price = price;
+            this.status = status;
+            this.offer = offer;
         }
     }
 }
