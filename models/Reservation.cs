@@ -30,5 +30,14 @@ namespace WindowsFormsApp1
             this.payment = payment;
             this.status = status;
         }
+
+        public Reservation(int id, DateTime startDate, DateTime endDate, double price, string status)
+        {
+            this.id = id;
+            this.startDate = startDate;
+            this.endDate = endDate;
+            this.price = price;
+            this.status = status;
+        }
     }
 }
