@@ -13,5 +13,13 @@ namespace Hotel_Management_System.models
         public int durationHrs { get; set; }
         public string hostname { get; set; }
 
+        public Event(string name, DateTime date, int durationHrs, string hostname)
+        {
+            this.name = name;
+            this.date = date;
+            this.durationHrs = durationHrs;
+            this.hostname = hostname;
+        }
+
     }
 }
